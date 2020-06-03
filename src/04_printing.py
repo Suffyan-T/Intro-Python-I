@@ -19,11 +19,12 @@ def round_up(n, decimals=0):
 
 print('Printed Using Print Method')
 print('x is '+ str(x)+', y is '+str(round_up(y-(2.25% y),2))+', z is "'+z+'"')
-
+print()
 # Use the 'format' string method to print the same thing
 print('Printed Using format Method')
 print('x is {}, y is {}, z is "{}"'.format(str(x),str(round_up(y-(2.25% y),2)),z))
-
+print()
 # Finally, print the same thing using an f-string
 print('Printed Using f-string Method')
 print(f'x is {str(x)}, y is {str(round_up(y-(2.25% y),2))}, z is "{z}"')
+print()
